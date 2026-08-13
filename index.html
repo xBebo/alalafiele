@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#090909" />
+  <title>Samah Elkassem | Fashion Designer &amp; Couture</title>
+  <meta name="description" content="Discover the couture world of Samah Elkassem — bridal gowns, evening dresses and custom fashion creations designed from sketch to signature." />
+  <link rel="canonical" href="https://www.samahelkassem.com/" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph / Social -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Samah Elkassem" />
+  <meta property="og:title" content="Samah Elkassem | Fashion Designer &amp; Couture" />
+  <meta property="og:description" content="Bridal gowns, evening dresses and custom fashion creations designed from sketch to signature." />
+  <meta property="og:image" content="assets/og-image.jpg" />
+  <meta property="og:url" content="https://www.samahelkassem.com/" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:locale:alternate" content="ar_EG" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Samah Elkassem | Fashion Designer &amp; Couture" />
+  <meta name="twitter:description" content="Bridal gowns, evening dresses and custom fashion creations designed from sketch to signature." />
+  <meta name="twitter:image" content="assets/og-image.jpg" />
+
+  <!-- Icons -->
+  <link rel="icon" type="image/png" sizes="64x64" href="assets/favicon-32.png" />
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+  <link rel="manifest" href="site.webmanifest" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Bodoni+Moda:wght@400;500;600;700&family=Jost:wght@300;400;500;600&family=El+Messiri:wght@400;500;600;700&family=IBM+Plex+Sans+Arabic:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Preload first essential hero frame -->
+  <link rel="preload" as="image" href="assets/frames/frame-001.webp" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FashionDesigner",
+    "name": "Samah Elkassem",
+    "alternateName": "سماح القاسم",
+    "description": "Egyptian fashion designer specializing in luxury couture, bridal gowns, evening dresses and custom fashion creations.",
+    "url": "https://www.samahelkassem.com/",
+    "image": "https://www.samahelkassem.com/assets/og-image.jpg",
+    "telephone": "+201027208126",
+    "email": "samah.aboelkasem@gmail.com",
+    "areaServed": "Egypt",
+    "knowsLanguage": ["ar", "en"],
+    "sameAs": [
+      "https://www.instagram.com/samah.elkasem/",
+      "https://www.facebook.com/samah.elkasem/"
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ============ LUXURY LOADER ============ -->
+  <div id="loader" class="loader" role="status" aria-live="polite">
+    <span class="visually-hidden" data-i18n="loader.label">Loading the atelier</span>
+    <div class="loader__frame">
+      <svg class="loader__svg" viewBox="0 0 200 200" aria-hidden="true">
+        <rect class="loader__stitch" x="10" y="10" width="180" height="180" rx="2" pathLength="100" />
+      </svg>
+      <div class="loader__logo">
+        <img src="assets/logo.jpg" alt="" width="200" height="200" />
+        <span class="loader__sweep" aria-hidden="true"></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ NAVIGATION ============ -->
+  <header id="navbar" class="nav" aria-label="Main">
+    <div class="nav__inner">
+      <a href="#home" class="nav__logo" data-i18n-aria="nav.logoAria" aria-label="Samah Elkassem — home">
+        <img src="assets/logo.jpg" alt="Samah Elkassem" width="200" height="200" />
+      </a>
+
+      <nav class="nav__links" aria-label="Primary">
+        <a href="#home" class="nav__link is-active" data-nav data-i18n="nav.home">Home</a>
+        <a href="#designer" class="nav__link" data-nav data-i18n="nav.designer">The Designer</a>
+        <a href="#collections" class="nav__link" data-nav data-i18n="nav.collections">Collections</a>
+        <a href="#process" class="nav__link" data-nav data-i18n="nav.process">The Process</a>
+        <a href="#contact" class="nav__link" data-nav data-i18n="nav.contact">Contact</a>
+      </nav>
+
+      <div class="nav__actions">
+        <a href="#contact" class="btn btn--ghost nav__cta" data-i18n="nav.book">Book a Consultation</a>
+        <button type="button" class="lang-switch" id="langSwitch" data-i18n="nav.langToggle" aria-label="العربية">عربي</button>
+        <button type="button" class="nav__burger" id="navBurger" aria-expanded="false" data-i18n-aria="nav.menuOpen" aria-label="Open menu" aria-controls="mobileMenu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ MOBILE MENU ============ -->
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <nav class="mobile-menu__nav" aria-label="Mobile">
+      <a href="#home" class="mobile-menu__link" data-nav data-i18n="nav.home">Home</a>
+      <a href="#designer" class="mobile-menu__link" data-nav data-i18n="nav.designer">The Designer</a>
+      <a href="#collections" class="mobile-menu__link" data-nav data-i18n="nav.collections">Collections</a>
+      <a href="#process" class="mobile-menu__link" data-nav data-i18n="nav.process">The Process</a>
+      <a href="#contact" class="mobile-menu__link" data-nav data-i18n="nav.contact">Contact</a>
+      <a href="#contact" class="btn btn--solid mobile-menu__cta" data-nav data-i18n="nav.book">Book a Consultation</a>
+      <button type="button" class="lang-switch lang-switch--lg" id="langSwitchMobile" data-i18n="nav.langToggle">عربي</button>
+    </nav>
+  </div>
+
+  <main>
+  <!-- ============ HERO: SCROLL FRAME SEQUENCE ============ -->
+  <section id="home" class="hero" aria-label="From sketch to signature">
+    <div class="hero__pin">
+      <canvas id="heroCanvas" class="hero__canvas" role="img" data-i18n-aria="hero.canvasAria" aria-label="A couture gown transforming from sketch to finished creation"></canvas>
+      <div class="hero__scrim" aria-hidden="true"></div>
+      <noscript><img src="assets/frames/frame-001.webp" alt="A fashion designer sketching a couture gown" class="hero__fallback" /></noscript>
+
+      <!-- Stage 1 -->
+      <div class="hero__stage hero__stage--intro" data-stage="intro">
+        <div class="hero__intro-inner">
+          <p class="hero__brand" data-i18n="hero.brand">SAMAH ELKASSEM</p>
+          <p class="hero__role" data-i18n="hero.role">FASHION DESIGNER</p>
+          <h1 class="hero__headline" data-i18n-html="hero.headline">From Sketch<br>to Signature.</h1>
+          <p class="hero__sub" data-i18n="hero.sub">Bespoke couture created to transform imagination into an unforgettable presence.</p>
+          <div class="hero__cta-row">
+            <a href="#contact" class="btn btn--solid" data-i18n="hero.ctaPrimary">Book Your Consultation</a>
+            <a href="#collections" class="btn btn--line" data-i18n="hero.ctaSecondary">Explore the Collection</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Stage 2 -->
+      <div class="hero__stage hero__stage--mid" data-stage="mid" aria-hidden="true">
+        <p class="hero__quote" data-i18n="hero.mid">Every masterpiece begins with a line.</p>
+      </div>
+
+      <!-- Stage 3 -->
+      <div class="hero__stage hero__stage--end" data-stage="end" aria-hidden="true">
+        <p class="hero__quote hero__quote--stack" data-i18n-html="hero.end">Designed by imagination.<br>Finished by hand.<br>Remembered forever.</p>
+      </div>
+
+      <div class="hero__scroll-cue" aria-hidden="true">
+        <span class="hero__scroll-line"></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ THE DESIGNER ============ -->
+  <section id="designer" class="designer section">
+    <div class="container designer__grid">
+      <div class="designer__media reveal">
+        <div class="designer__main-img img-mask">
+          <img src="assets/img/designer-main.webp" loading="lazy" decoding="async" data-i18n-alt="designer.mainAlt" alt="An illustrated couture gown glowing on the atelier table" />
+        </div>
+        <div class="designer__detail designer__detail--1 img-mask">
+          <img src="assets/img/designer-detail-1.webp" loading="lazy" decoding="async" data-i18n-alt="designer.detail1Alt" alt="A hand sketching a couture gown" />
+        </div>
+        <div class="designer__detail designer__detail--2 img-mask">
+          <img src="assets/img/designer-detail-2.webp" loading="lazy" decoding="async" data-i18n-alt="designer.detail2Alt" alt="Fabric swatches and threads in the atelier" />
+        </div>
+        <span class="designer__note" data-i18n="designer.placeholderNote">Replaceable atelier image</span>
+      </div>
+      <div class="designer__copy">
+        <span class="kicker reveal" data-i18n="designer.kicker">The Designer</span>
+        <h2 class="section-title reveal" data-i18n="designer.title">The Vision Behind Every Silhouette</h2>
+        <div class="rule reveal" aria-hidden="true"></div>
+        <p class="reveal" data-i18n="designer.p1">Samah Elkassem transforms artistic sketches into refined couture creations. Every design begins with an idea, shaped through carefully selected fabrics, considered proportions and intricate handcrafted details.</p>
+        <p class="reveal" data-i18n="designer.p2">Her work celebrates individuality, elegance and the confidence of wearing a piece created for a truly personal moment.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ COLLECTIONS ============ -->
+  <section id="collections" class="collections section">
+    <div class="container">
+      <div class="section-head">
+        <span class="kicker reveal" data-i18n="collections.kicker">Collections</span>
+        <h2 class="section-title reveal" data-i18n="collections.title">Created for Your Moment</h2>
+      </div>
+      <div class="collections__grid">
+        <article class="col-card reveal">
+          <div class="col-card__img">
+            <img src="assets/img/collection-bridal.webp" loading="lazy" decoding="async" data-i18n-alt="collections.bridalAlt" alt="Bridal couture gown" />
+          </div>
+          <div class="col-card__body">
+            <h3 class="col-card__title" data-i18n="collections.bridalTitle">Bridal Couture</h3>
+            <p data-i18n="collections.bridalDesc">Timeless bridal silhouettes shaped with refined details and a deeply personal touch.</p>
+          </div>
+        </article>
+        <article class="col-card reveal">
+          <div class="col-card__img">
+            <img src="assets/img/collection-evening.webp" loading="lazy" decoding="async" data-i18n-alt="collections.eveningAlt" alt="Evening couture gown" />
+          </div>
+          <div class="col-card__body">
+            <h3 class="col-card__title" data-i18n="collections.eveningTitle">Evening Couture</h3>
+            <p data-i18n="collections.eveningDesc">Statement gowns designed for elegant evenings, celebrations and unforgettable entrances.</p>
+          </div>
+        </article>
+        <article class="col-card reveal">
+          <div class="col-card__img">
+            <img src="assets/img/collection-custom.webp" loading="lazy" decoding="async" data-i18n-alt="collections.customAlt" alt="Custom couture creation" />
+          </div>
+          <div class="col-card__body">
+            <h3 class="col-card__title" data-i18n="collections.customTitle">Custom Creations</h3>
+            <p data-i18n="collections.customDesc">A personal design journey that transforms an individual vision into a one-of-a-kind couture piece.</p>
+          </div>
+        </article>
+      </div>
+      <div class="collections__cta reveal">
+        <a href="https://www.instagram.com/samah.elkasem/?hl=ar" target="_blank" rel="noopener" class="btn btn--line" data-i18n="collections.cta">View Our Work on Instagram</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ COUTURE PROCESS ============ -->
+  <section id="process" class="process section">
+    <div class="container">
+      <div class="section-head">
+        <span class="kicker reveal" data-i18n="process.kicker">The Process</span>
+        <h2 class="section-title reveal" data-i18n="process.title">From Vision to Reality</h2>
+      </div>
+      <ol class="process__list">
+        <span class="process__thread" aria-hidden="true"><span class="process__thread-fill" id="processThread"></span></span>
+        <li class="process__step reveal">
+          <span class="process__num">01</span>
+          <div class="process__content">
+            <h3 class="process__title" data-i18n="process.s1Title">Consultation</h3>
+            <p data-i18n="process.s1Desc">Understanding the occasion, personality and desired silhouette.</p>
+          </div>
+        </li>
+        <li class="process__step reveal">
+          <span class="process__num">02</span>
+          <div class="process__content">
+            <h3 class="process__title" data-i18n="process.s2Title">The Sketch</h3>
+            <p data-i18n="process.s2Desc">Transforming the initial vision into an original fashion illustration.</p>
+          </div>
+        </li>
+        <li class="process__step reveal">
+          <span class="process__num">03</span>
+          <div class="process__content">
+            <h3 class="process__title" data-i18n="process.s3Title">Fabric &amp; Details</h3>
+            <p data-i18n="process.s3Desc">Selecting fabrics, colors, embroidery and handcrafted elements.</p>
+          </div>
+        </li>
+        <li class="process__step reveal">
+          <span class="process__num">04</span>
+          <div class="process__content">
+            <h3 class="process__title" data-i18n="process.s4Title">Fittings</h3>
+            <p data-i18n="process.s4Desc">Refining proportions, comfort and movement through careful fittings.</p>
+          </div>
+        </li>
+        <li class="process__step reveal">
+          <span class="process__num">05</span>
+          <div class="process__content">
+            <h3 class="process__title" data-i18n="process.s5Title">The Final Creation</h3>
+            <p data-i18n="process.s5Desc">Completing a couture piece designed for one unforgettable presence.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ CRAFTSMANSHIP ============ -->
+  <section id="craft" class="craft section">
+    <div class="container">
+      <div class="section-head">
+        <span class="kicker reveal" data-i18n="craft.kicker">Craftsmanship</span>
+        <h2 class="section-title reveal" data-i18n="craft.title">The Art Is in the Detail</h2>
+      </div>
+      <div class="craft__grid">
+        <figure class="craft__card reveal">
+          <div class="craft__img"><img src="assets/img/craft-sketch.webp" loading="lazy" decoding="async" data-i18n-alt="craft.sketchAlt" alt="Couture sketching" /></div>
+          <figcaption class="craft__cap" data-i18n="craft.sketch">Couture Sketching</figcaption>
+        </figure>
+        <figure class="craft__card reveal">
+          <div class="craft__img"><img src="assets/img/craft-fabric.webp" loading="lazy" decoding="async" data-i18n-alt="craft.fabricAlt" alt="Fabric selection" /></div>
+          <figcaption class="craft__cap" data-i18n="craft.fabric">Fabric Selection</figcaption>
+        </figure>
+        <figure class="craft__card reveal">
+          <div class="craft__img"><img src="assets/img/craft-embroidery.webp" loading="lazy" decoding="async" data-i18n-alt="craft.embroideryAlt" alt="Hand embroidery" /></div>
+          <figcaption class="craft__cap" data-i18n="craft.embroidery">Hand Embroidery</figcaption>
+        </figure>
+        <figure class="craft__card reveal">
+          <div class="craft__img"><img src="assets/img/craft-silhouette.webp" loading="lazy" decoding="async" data-i18n-alt="craft.silhouetteAlt" alt="Sculpted silhouettes" /></div>
+          <figcaption class="craft__cap" data-i18n="craft.silhouette">Sculpted Silhouettes</figcaption>
+        </figure>
+        <figure class="craft__card reveal">
+          <div class="craft__img"><img src="assets/img/craft-finishing.webp" loading="lazy" decoding="async" data-i18n-alt="craft.finishingAlt" alt="Final finishing" /></div>
+          <figcaption class="craft__cap" data-i18n="craft.finishing">Final Finishing</figcaption>
+        </figure>
+      </div>
+      <p class="craft__statement reveal" data-i18n="craft.statement">Every seam, fold and detail is considered — because true couture is experienced before it is explained.</p>
+    </div>
+  </section>
+
+  <!-- ============ EDITORIAL GALLERY ============ -->
+  <section id="gallery" class="gallery section">
+    <div class="container">
+      <div class="section-head">
+        <span class="kicker reveal" data-i18n="gallery.kicker">Gallery</span>
+        <h2 class="section-title reveal" data-i18n="gallery.title">Selected Creations</h2>
+      </div>
+      <div class="gallery__grid" id="galleryGrid">
+        <button class="gallery__item gallery__item--tall reveal" data-index="0"><img src="assets/img/gallery-1.webp" loading="lazy" decoding="async" data-i18n-alt="gallery.alt1" alt="Couture creation" /></button>
+        <button class="gallery__item reveal" data-index="1"><img src="assets/img/gallery-2.webp" loading="lazy" decoding="async" data-i18n-alt="gallery.alt2" alt="Couture creation" /></button>
+        <button class="gallery__item gallery__item--tall reveal" data-index="2"><img src="assets/img/gallery-3.webp" loading="lazy" decoding="async" data-i18n-alt="gallery.alt3" alt="Couture creation" /></button>
+        <button class="gallery__item reveal" data-index="3"><img src="assets/img/gallery-4.webp" loading="lazy" decoding="async" data-i18n-alt="gallery.alt4" alt="Couture creation" /></button>
+        <button class="gallery__item gallery__item--tall reveal" data-index="4"><img src="assets/img/gallery-5.webp" loading="lazy" decoding="async" data-i18n-alt="gallery.alt5" alt="Couture creation" /></button>
+        <button class="gallery__item reveal" data-index="5"><img src="assets/img/gallery-6.webp" loading="lazy" decoding="async" data-i18n-alt="gallery.alt6" alt="Couture creation" /></button>
+      </div>
+      <div class="gallery__cta reveal">
+        <a href="https://www.instagram.com/samah.elkasem/?hl=ar" target="_blank" rel="noopener" class="btn btn--line" data-i18n="gallery.cta">Discover More on Instagram</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section id="contact" class="contact section">
+    <div class="container contact__grid">
+      <div class="contact__intro">
+        <span class="kicker reveal" data-i18n="contact.kicker">Contact</span>
+        <h2 class="section-title reveal" data-i18n="contact.title">Begin Your Dress Story</h2>
+        <div class="rule reveal" aria-hidden="true"></div>
+        <p class="reveal" data-i18n="contact.copy">Tell us about your occasion and the piece you imagine. Contact the atelier to begin your personal couture journey.</p>
+
+        <ul class="contact__list reveal">
+          <li>
+            <span class="contact__ico" aria-hidden="true">✆</span>
+            <a href="tel:+201027208126" dir="ltr">01027208126</a>
+          </li>
+          <li>
+            <span class="contact__ico" aria-hidden="true">✉</span>
+            <a href="mailto:samah.aboelkasem@gmail.com" dir="ltr">samah.aboelkasem@gmail.com</a>
+          </li>
+          <li>
+            <span class="contact__ico" aria-hidden="true">◈</span>
+            <a id="waTextLink" href="https://wa.me/201027208126" target="_blank" rel="noopener" data-i18n="contact.whatsappCta">Message on WhatsApp</a>
+          </li>
+        </ul>
+
+        <div class="contact__social reveal">
+          <a href="https://www.instagram.com/samah.elkasem/?hl=ar" target="_blank" rel="noopener" aria-label="Instagram" data-i18n-aria="contact.instagramAria">Instagram</a>
+          <a href="https://www.facebook.com/samah.elkasem/?locale=ar_AR" target="_blank" rel="noopener" aria-label="Facebook" data-i18n-aria="contact.facebookAria">Facebook</a>
+        </div>
+
+        <a href="https://share.google/05aPfR6UUXzCsOXE2" target="_blank" rel="noopener" class="contact__map reveal">
+          <span class="contact__map-ico" aria-hidden="true">⌖</span>
+          <span class="contact__map-text" data-i18n="contact.mapCta">Open in Google Maps</span>
+        </a>
+      </div>
+
+      <form class="contact__form reveal" id="bookingForm" novalidate>
+        <div class="field">
+          <label for="fName" data-i18n="form.name">Full Name</label>
+          <input type="text" id="fName" name="name" autocomplete="name" required data-i18n-placeholder="form.namePh" placeholder="Your name" />
+          <span class="field__err" data-err="name" role="alert"></span>
+        </div>
+        <div class="field">
+          <label for="fPhone" data-i18n="form.phone">Phone Number</label>
+          <input type="tel" id="fPhone" name="phone" dir="ltr" autocomplete="tel" required data-i18n-placeholder="form.phonePh" placeholder="01xxxxxxxxx" />
+          <span class="field__err" data-err="phone" role="alert"></span>
+        </div>
+        <div class="field">
+          <label for="fOccasion" data-i18n="form.occasion">Occasion</label>
+          <select id="fOccasion" name="occasion" required>
+            <option value="" data-i18n="form.occasionPh">Select an occasion</option>
+            <option value="wedding" data-i18n="form.occWedding">Wedding</option>
+            <option value="engagement" data-i18n="form.occEngagement">Engagement</option>
+            <option value="evening" data-i18n="form.occEvening">Evening Event</option>
+            <option value="special" data-i18n="form.occSpecial">Special Occasion</option>
+            <option value="other" data-i18n="form.occOther">Other</option>
+          </select>
+          <span class="field__err" data-err="occasion" role="alert"></span>
+        </div>
+        <div class="field">
+          <label for="fDate" data-i18n="form.date">Preferred Appointment Date</label>
+          <input type="date" id="fDate" name="date" />
+          <span class="field__err" data-err="date" role="alert"></span>
+        </div>
+        <div class="field field--full">
+          <label for="fMsg" data-i18n="form.message">Message</label>
+          <textarea id="fMsg" name="message" rows="4" data-i18n-placeholder="form.messagePh" placeholder="Tell us about the piece you imagine…"></textarea>
+        </div>
+        <div class="field field--full">
+          <button type="submit" class="btn btn--solid btn--block" data-i18n="form.submit">Send Request</button>
+          <p class="form__status" id="formStatus" role="status" aria-live="polite"></p>
+        </div>
+      </form>
+    </div>
+  </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <img src="assets/logo.jpg" alt="Samah Elkassem" width="200" height="200" class="footer__logo" />
+        <p class="footer__role" data-i18n="footer.role">Fashion Designer</p>
+        <p class="footer__statement" data-i18n="footer.statement">Every dress begins as a vision.</p>
+      </div>
+
+      <nav class="footer__nav" aria-label="Footer">
+        <h3 class="footer__head" data-i18n="footer.explore">Explore</h3>
+        <a href="#home" data-nav data-i18n="nav.home">Home</a>
+        <a href="#designer" data-nav data-i18n="nav.designer">The Designer</a>
+        <a href="#collections" data-nav data-i18n="nav.collections">Collections</a>
+        <a href="#process" data-nav data-i18n="nav.process">The Process</a>
+        <a href="#gallery" data-nav data-i18n="nav.gallery">Gallery</a>
+        <a href="#contact" data-nav data-i18n="nav.contact">Contact</a>
+      </nav>
+
+      <div class="footer__contact">
+        <h3 class="footer__head" data-i18n="footer.reach">Get in Touch</h3>
+        <a href="tel:+201027208126" dir="ltr">01027208126</a>
+        <a id="waFooterLink" href="https://wa.me/201027208126" target="_blank" rel="noopener" data-i18n="contact.whatsappCta">Message on WhatsApp</a>
+        <a href="mailto:samah.aboelkasem@gmail.com" dir="ltr">samah.aboelkasem@gmail.com</a>
+        <div class="footer__social">
+          <a href="https://www.instagram.com/samah.elkasem/?hl=ar" target="_blank" rel="noopener" aria-label="Instagram" data-i18n-aria="contact.instagramAria">Instagram</a>
+          <a href="https://www.facebook.com/samah.elkasem/?locale=ar_AR" target="_blank" rel="noopener" aria-label="Facebook" data-i18n-aria="contact.facebookAria">Facebook</a>
+          <a href="https://share.google/05aPfR6UUXzCsOXE2" target="_blank" rel="noopener" aria-label="Google Maps" data-i18n-aria="contact.mapsAria">Maps</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bar">
+      <button type="button" class="lang-switch" id="langSwitchFooter" data-i18n="nav.langToggle">عربي</button>
+      <p class="footer__copy" data-i18n="footer.copyright">© Samah Elkassem. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- ============ FLOATING WHATSAPP ============ -->
+  <a id="waFloat" class="wa-float" href="https://wa.me/201027208126" target="_blank" rel="noopener" aria-label="Chat on WhatsApp" data-i18n-aria="wa.label">
+    <svg viewBox="0 0 32 32" width="26" height="26" aria-hidden="true" focusable="false">
+      <path fill="currentColor" d="M16.003 3C9.383 3 4 8.383 4 15.003c0 2.114.553 4.177 1.603 5.997L4 29l8.2-1.55a12 12 0 0 0 3.803.62h.003C22.62 28.07 28 22.687 28 16.067 28 12.86 26.75 9.85 24.48 7.58A11.9 11.9 0 0 0 16.003 3zm0 2.18c2.62 0 5.08 1.02 6.93 2.87a9.74 9.74 0 0 1 2.887 6.94c0 5.42-4.41 9.83-9.837 9.83a9.8 9.8 0 0 1-3.29-.56l-.236-.084-4.87.92.93-4.746-.153-.244a9.71 9.71 0 0 1-1.49-5.18c.003-5.42 4.413-9.83 9.85-9.83zm-3.87 5.38c-.18 0-.475.068-.724.34-.248.27-.95.928-.95 2.263s.973 2.625 1.11 2.806c.135.18 1.916 2.926 4.64 4.104.648.28 1.154.447 1.548.573.65.207 1.242.178 1.71.108.522-.078 1.607-.657 1.834-1.29.226-.635.226-1.18.158-1.29-.067-.11-.248-.178-.52-.315-.27-.135-1.607-.793-1.856-.884-.248-.09-.43-.135-.61.135-.18.27-.7.884-.858 1.065-.158.18-.316.203-.587.068-.27-.135-1.14-.42-2.174-1.34-.803-.716-1.345-1.6-1.503-1.87-.157-.27-.017-.417.12-.55.122-.122.27-.316.406-.474.135-.158.18-.27.27-.452.09-.18.045-.338-.023-.474-.067-.135-.61-1.47-.836-2.014-.22-.53-.443-.457-.61-.466l-.52-.01z"/>
+    </svg>
+    <span class="wa-float__text" data-i18n="wa.label">Chat on WhatsApp</span>
+  </a>
+
+  <!-- ============ LIGHTBOX ============ -->
+  <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-modal="true" data-i18n-aria="gallery.lightboxAria" aria-label="Gallery viewer">
+    <button class="lightbox__close" id="lbClose" aria-label="Close" data-i18n-aria="gallery.close">&times;</button>
+    <button class="lightbox__nav lightbox__prev" id="lbPrev" aria-label="Previous" data-i18n-aria="gallery.prev">&#8249;</button>
+    <img class="lightbox__img" id="lbImg" alt="" />
+    <button class="lightbox__nav lightbox__next" id="lbNext" aria-label="Next" data-i18n-aria="gallery.next">&#8250;</button>
+  </div>
+
+  <script src="js/gsap.min.js" defer></script>
+  <script src="js/ScrollTrigger.min.js" defer></script>
+  <script src="js/translations.js" defer></script>
+  <script src="js/main.js" defer></script>
+</body>
+</html>
